@@ -7,8 +7,10 @@ process.stdout.write(
   "LANGUAGE: reply ONLY in the language the user wrote their message in — do not switch languages.\n" +
   "DIRECTION: set the widget container's dir to match that language — dir=\"rtl\" for RTL scripts " +
   "(Hebrew, Arabic, Persian/Farsi, Urdu, ...), dir=\"ltr\" otherwise.\n" +
-  "Include a <style> so mixed blocks self-orient: p,li,td,th,blockquote{unicode-bidi:plaintext;text-align:start} " +
-  "code,.ltr{unicode-bidi:isolate;direction:ltr} pre{direction:ltr;text-align:left}. Put inline English/terms in <code>. " +
+  "Include a <style>: p,li,td,th,blockquote{text-align:start} code,.ltr{unicode-bidi:isolate;direction:ltr} " +
+  "pre{direction:ltr;text-align:left} .ltr-block{direction:ltr;text-align:left}. Do NOT put unicode-bidi:plaintext on blocks — " +
+  "it re-bases a paragraph by its first strong char, so an RTL-language paragraph that OPENS with a Latin word wrongly left-aligns. " +
+  "Blocks inherit the container dir, so RTL paragraphs stay right-aligned regardless of first char; mark a genuinely LTR paragraph with class=\"ltr-block\". Put inline English/terms in <code>. " +
   "Code blocks: <pre dir=\"ltr\"> + <code class=\"language-XXX\">, syntax-highlight via highlight.js from cdnjs " +
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
