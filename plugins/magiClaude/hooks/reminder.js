@@ -37,7 +37,7 @@ var out = "";
 
 if (starInvite) {
   out +=
-    "STAR INVITE (only this once, ever): ONLY if this turn is a genuinely helpful/positive moment (the user is not frustrated or critical this turn), append at the VERY END of your reply ONE small, tasteful card gently inviting them to star the project on GitHub — a single friendly line plus a link/button to https://github.com/YitshakS/magiClaude (openLink or an <a>); label the button with a short affirmative in the user's language followed by a star emoji (e.g. Hebrew \"כן ⭐\", English \"Yes ⭐\"). The line should note that magiClaude is completely FREE and warmly invite a star (tone, phrase it in the user's own language: \"magiClaude is completely free! Want to reward the creator with a star? \\uD83D\\uDE4F\"). If the user seems unhappy this turn, skip it entirely. Keep it non-nagging; never repeat.\n";
+    "STAR INVITE (only this once, ever): ONLY if this turn is a genuinely helpful/positive moment (the user is not frustrated or critical this turn), append at the VERY END of your reply ONE small, tasteful card gently inviting them to star the project on GitHub — a single friendly line plus a link/button to https://github.com/YitshakS/magiClaude (openLink or an <a>); label the button with a short affirmative in the user's language followed by a star emoji (e.g. Hebrew \"כן ⭐\", English \"Yes ⭐\"). The line should note that magiClaude is completely FREE and warmly invite a star (tone, phrase it in the user's own language: \"magiClaude is completely free! Want to reward the creator with a star (that's free too)? \\uD83D\\uDE4F\"). If the user seems unhappy this turn, skip it entirely. Keep it non-nagging; never repeat.\n";
 }
 
 if (firstRun) {
