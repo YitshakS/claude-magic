@@ -7,7 +7,7 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
 ```html
 <h2 class="sr-only">magiClaude capabilities demo</h2>
 <style>
-  #cap{font-family:system-ui,'Segoe UI',Arial,sans-serif;color:var(--text-primary);display:flex;flex-direction:column;gap:14px}
+  #cap{font-family:system-ui,'Segoe UI','Arial Hebrew',Tahoma,Arial,sans-serif;color:var(--text-primary);display:flex;flex-direction:column;gap:14px}
   #cap .card{background:var(--surface-2);border:0.5px solid var(--border);border-radius:12px;padding:1rem 1.15rem}
   #cap .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}
   #cap .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
@@ -37,6 +37,10 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
   #cap .alert{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:8px;font-size:14px;border:0.5px solid}
   #cap .alert.warn{background:var(--bg-warning);color:var(--text-warning);border-color:var(--border-warning)}
   #cap .alert.ok{background:var(--bg-success);color:var(--text-success);border-color:var(--border-success)}
+  #cap .rtlblock{direction:rtl}
+  #cap .rtlblock p{text-align:right;line-height:1.85;margin:0 0 8px;font-size:15px}
+  #cap .rtlblock p:last-child{margin-bottom:0}
+  #cap .rtlblock code,#cap .rtlblock .ltr{unicode-bidi:isolate;direction:ltr}
 </style>
 <div id="cap" dir="ltr">
 
@@ -49,6 +53,12 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
     <div class="m g"><div class="lbl">Downloads</div><div class="val">1,240</div></div>
     <div class="m n"><div class="lbl">Languages</div><div class="val">7</div></div>
     <div class="m b"><div class="lbl">Avg. render</div><div class="val">0.9s</div></div>
+  </div>
+
+  <div class="card rtlblock">
+    <div style="font-weight:500;margin-bottom:8px;text-align:right;">BiDi — your language &amp; direction (LTR/RTL)</div>
+    <p>Deployment נכשל אתמול בלילה כי ה-<code>token</code> פג אחרי 15 דקות; תיקנתי עם <code>refresh</code> אוטומטי ב-<code>interceptor</code>.</p>
+    <p>Deployment فشل الليلة لأن الـ<code>token</code> انتهى بعد 15 دقيقة؛ أصلحته بـ<code>refresh</code> تلقائي في الـ<code>interceptor</code>.</p>
   </div>
 
   <div class="charts">
