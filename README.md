@@ -19,19 +19,13 @@ to plain markdown.
 
 Copy & paste into Claude:
 
-**Install**
-
 ```text
 Install YitshakS/magiClaude marketplace plugin
 ```
 
-**Update**
-
 ```text
 Update YitshakS/magiClaude marketplace plugin
 ```
-
-**Uninstall**
 
 ```text
 Uninstall YitshakS/magiClaude marketplace plugin
