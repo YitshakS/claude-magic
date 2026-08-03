@@ -18,6 +18,7 @@ process.stdout.write(
   "Code blocks: <pre dir=\"ltr\"> + <code class=\"language-XXX\">, syntax-highlight via highlight.js from cdnjs " +
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
+  "CONTRAST (critical): NEVER put text on a background of similar color or lightness — it is unreadable. Inline <code>/tokens, badges, and pills must have strong contrast: a readable text color on a distinctly different background (e.g. var(--text-primary), or an 800/900 ramp stop on a light fill and a 100/200 stop on a dark fill), and it must stay readable in BOTH light and dark mode.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
   "Disable for one turn if the user says \"no widget\". Requires the visualize MCP (show_widget); without it, fall back to plain markdown."
