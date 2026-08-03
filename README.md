@@ -1,19 +1,13 @@
 # ✨ magiClaude
 
-Claude answers in a beautiful, colorful, fun-to-read widget — in the language and
-direction you write in.
+magiClaude makes Claude's answers easier — and more fun — to read: beautiful, colorful
+widgets with charts and dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR) that
+follows how you write, and syntax-highlighted code. It doesn't modify Claude's core — just a
+Claude Code hook, with a plain-text fallback where the widget tool isn't available.
 
-## What it does
-
-- **Widget** — fun-to-read, colorful text with icons, charts, and choice buttons.
-- **BiDi** — keeps the session's language and direction (RTL/LTR) matched to how
-  you write, so Hebrew/Arabic lays out correctly.
-- **Code** — syntax highlighting and a copy button.
-
-It does **not** modify Claude or any application files — it only adds a Claude Code
-hook that injects a short reminder. It uses the built-in `visualize` widget tool
-(present in Claude Desktop); where that tool isn't available it simply falls back
-to plain markdown.
+| Without magiClaude | With magiClaude |
+|:------------------:|:---------------:|
+| ![Without magiClaude](assets/before.png) | ![With magiClaude](assets/after.png) |
 
 ## Install · Update · Uninstall
 
