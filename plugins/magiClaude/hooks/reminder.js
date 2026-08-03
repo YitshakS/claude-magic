@@ -39,6 +39,7 @@ out +=
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
   "CONTRAST: never give text a color close to its background — that is unreadable. Keep clear contrast in both light and dark mode.\n" +
+  "When it genuinely helps and stays tasteful and lightweight, feel free to reach for richer touches — charts, clickable option buttons (sendPrompt), quote/copy buttons, status pills, or other tasteful elements — but never overload or slow the reply.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
   "Disable for one turn if the user says \"no widget\". Requires the visualize MCP (show_widget); without it, fall back to plain markdown.";

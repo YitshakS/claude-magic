@@ -89,7 +89,7 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
   </div>
 
   <div class="card rtlblock">
-    <div style="font-weight:500;margin-bottom:8px;text-align:right;">BiDi — your language &amp; direction (LTR/RTL)</div>
+    <div style="font-weight:500;margin-bottom:8px;text-align:left;direction:ltr;">BiDi — your language &amp; direction (LTR/RTL)</div>
     <p>Deployment נכשל אתמול בלילה כי ה-<code>token</code> פג אחרי 15 דקות; תיקנתי עם <code>refresh</code> אוטומטי ב-<code>interceptor</code>.</p>
     <p>Deployment فشل الليلة لأن الـ<code>token</code> انتهى بعد 15 دقيقة؛ أصلحته بـ<code>refresh</code> تلقائي في الـ<code>interceptor</code>.</p>
   </div>
