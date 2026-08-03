@@ -1,6 +1,6 @@
 # ✨ magiClaude
 
-magiClaude makes Claude Desktop your session easier and fun to read:
+magiClaude makes Claude Desktop your session easy and fun to read:
 
 beautiful, colorful, code highlighting, charts, dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR).
 
