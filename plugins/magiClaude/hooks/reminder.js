@@ -14,8 +14,7 @@ process.stdout.write(
   "Keep inline English/code from bleeding with a <style>: code,.ltr{unicode-bidi:isolate;direction:ltr} " +
   "pre{direction:ltr;text-align:left} .ltr-block{direction:ltr;text-align:left}. Blocks inherit the container dir " +
   "(do NOT use unicode-bidi:plaintext — it re-bases a paragraph by its first strong char). Put inline English/terms in <code>; " +
-  "mark a genuinely LTR-language paragraph with class=\"ltr-block\". " +
-  "Keep a MULTI-WORD English/LTR run (error messages, full sentences, multi-token phrases like \"Failed to load timetable audits\") inside ONE isolated element (a single <code> or class=\"ltr\" span) — never split one phrase across several spans, or the RTL bidi scatters its words out of reading order.\n" +
+  "mark a genuinely LTR-language paragraph with class=\"ltr-block\".\n" +
   "Code blocks: <pre dir=\"ltr\"> + <code class=\"language-XXX\">, syntax-highlight via highlight.js from cdnjs " +
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
