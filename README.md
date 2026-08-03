@@ -58,7 +58,7 @@ claude plugin install magiClaude@magiclaude
 Paste this to Claude:
 
 ```text
-Uninstall the magiClaude Claude Code plugin and remove the magiClaude marketplace.
+Uninstall the magiClaude plugin and remove the magiClaude marketplace.
 ```
 
 <details>
