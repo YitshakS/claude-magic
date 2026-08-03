@@ -17,7 +17,7 @@ to plain markdown.
 
 ## Install · Update · Uninstall
 
-Copy & paste into Claude:
+Copy & paste into Claude Desktop:
 
 ```text
 Install YitshakS/magiClaude marketplace plugin
@@ -30,25 +30,6 @@ Update YitshakS/magiClaude marketplace plugin
 ```text
 Uninstall YitshakS/magiClaude marketplace plugin
 ```
-
-<details>
-<summary>Prefer the CLI?</summary>
-
-```bash
-# Install
-claude plugin marketplace add YitshakS/magiClaude
-claude plugin install magiClaude@magiclaude
-
-# Update
-claude plugin marketplace update magiclaude
-claude plugin install magiClaude@magiclaude
-
-# Uninstall
-claude plugin uninstall magiClaude@magiclaude
-claude plugin marketplace remove magiclaude
-```
-
-</details>
 
 ## Try it
 
