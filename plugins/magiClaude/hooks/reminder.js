@@ -1,6 +1,26 @@
 // Printed to stdout every user prompt; Claude Code injects it into context.
 // Cross-platform (node is guaranteed for Claude Code).
-process.stdout.write(
+var fs = require('fs'), os = require('os'), path = require('path');
+
+// First-run detection: show the welcome splash once, ever.
+var firstRun = false;
+try {
+  var flag = path.join(os.homedir(), '.magiclaude_welcomed');
+  if (!fs.existsSync(flag)) { firstRun = true; fs.writeFileSync(flag, 'welcomed'); }
+} catch (e) { /* if the flag can't be read/written, just skip the welcome */ }
+
+var out = "";
+
+if (firstRun) {
+  var root = process.env.CLAUDE_PLUGIN_ROOT || ".";
+  out +=
+    "FIRST RUN (magiClaude just installed): BEFORE answering the user, greet them once by rendering the welcome splash. " +
+    "Read the file \"" + root + "/assets/welcome.html\" and pass its ENTIRE contents as the widget_code of a single " +
+    "mcp__visualize__show_widget call (favicon a sparkle). Show it exactly as-is, do not modify it. " +
+    "Then answer the user's actual message in a separate widget as usual. This happens only on the very first turn.\n";
+}
+
+out +=
   "MAGIC WIDGET REMINDER: Render your ENTIRE substantive reply inside ONE mcp__visualize__show_widget call " +
   "(rich HTML: cards on var(--surface-2) with 0.5px var(--border) and 12px radius, tasteful color, Tabler outline icons where they aid scanning). " +
   "Do NOT output substantive prose, tables, or code as plain text outside the widget.\n" +
@@ -21,5 +41,6 @@ process.stdout.write(
   "CONTRAST: never give text a color close to its background — that is unreadable. Keep clear contrast in both light and dark mode.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
-  "Disable for one turn if the user says \"no widget\". Requires the visualize MCP (show_widget); without it, fall back to plain markdown."
-);
+  "Disable for one turn if the user says \"no widget\". Requires the visualize MCP (show_widget); without it, fall back to plain markdown.";
+
+process.stdout.write(out);
