@@ -23,8 +23,7 @@ Paste this to Claude:
 Add the Claude Code plugin marketplace YitshakS/magiClaude and install the magiClaude plugin, then reload plugins.
 ```
 
-Claude runs the steps for you. Say `no widget` any time for a plain reply on a
-single turn.
+Claude runs the steps for you.
 
 <details>
 <summary>Prefer the CLI?</summary>

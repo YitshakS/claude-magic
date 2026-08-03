@@ -61,6 +61,6 @@ out +=
   "When it genuinely helps and stays tasteful and lightweight, feel free to reach for richer touches — charts, clickable option buttons (sendPrompt), quote/copy buttons, status pills, or other tasteful elements — but never overload or slow the reply.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
-  "Disable for one turn if the user says \"no widget\". Requires the visualize MCP (show_widget); without it, fall back to plain markdown.";
+  "Requires the visualize MCP (show_widget); without it, fall back to plain markdown.";
 
 process.stdout.write(out);
