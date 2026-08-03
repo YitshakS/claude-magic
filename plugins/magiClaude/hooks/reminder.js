@@ -33,9 +33,9 @@ if (starInvite) {
 if (firstRun) {
   var root = process.env.CLAUDE_PLUGIN_ROOT || ".";
   out +=
-    "FIRST RUN (magiClaude just installed): BEFORE answering the user, greet them once by rendering the welcome splash. " +
-    "Read the file \"" + root + "/assets/welcome.html\" and pass its ENTIRE contents as the widget_code of a single " +
-    "mcp__visualize__show_widget call (favicon a sparkle). Show it exactly as-is, do not modify it. " +
+    "FIRST RUN (magiClaude just installed): BEFORE answering the user, greet them once with the welcome splash. " +
+    "Read the file \"" + root + "/commands/banner-1.md\", take the HTML inside its ```html code fence, and pass it EXACTLY " +
+    "as the widget_code of a single mcp__visualize__show_widget call (favicon a sparkle). Show it as-is, do not modify it. " +
     "Then answer the user's actual message in a separate widget as usual. This happens only on the very first turn.\n";
 }
 

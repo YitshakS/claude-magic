@@ -1,3 +1,10 @@
+---
+description: magiClaude banner 1
+---
+
+Render this as a SINGLE `mcp__visualize__show_widget` call (favicon ✨). Pass the HTML below as `widget_code` EXACTLY as-is — do not modify it. No other text outside the widget.
+
+```html
 <h2 class="sr-only">Welcome to magiClaude</h2>
 <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');</style>
 <div dir="ltr" style="padding:0; font-family: system-ui,'Segoe UI',Arial,sans-serif;">
@@ -37,3 +44,4 @@
     frame();
   })();
 </script>
+```

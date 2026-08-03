@@ -1,5 +1,5 @@
 ---
-description: Show the magiClaude capabilities demo (interactive widget)
+description: magiClaude capabilities demo
 ---
 
 Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget` call (favicon a sparkle ✨). Pass the HTML below as the `widget_code` EXACTLY as-is — do not modify, translate, restyle, or shorten it. Do not add any other text outside the widget.

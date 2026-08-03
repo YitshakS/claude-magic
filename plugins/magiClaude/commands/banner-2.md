@@ -1,17 +1,18 @@
 ---
-description: magiClaude interactive constellation (reacts to your cursor)
+description: magiClaude banner 2
 ---
 
 Render this as a SINGLE `mcp__visualize__show_widget` call (favicon ✨). Pass the HTML below as `widget_code` EXACTLY as-is — do not modify it. No other text outside the widget.
 
 ```html
 <h2 class="sr-only">magiClaude interactive constellation</h2>
+<style>@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');</style>
 <div dir="ltr" style="padding:0; font-family: system-ui,'Segoe UI',Arial,sans-serif;">
-  <div id="st" style="position:relative; height:380px; border-radius:18px; overflow:hidden; background:radial-gradient(120% 120% at 50% 0%, #12102a 0%, #06060f 70%);">
+  <div id="st" style="position:relative; height:180px; border-radius:16px; overflow:hidden; background:radial-gradient(120% 120% at 50% 0%, #12102a 0%, #06060f 70%);">
     <canvas id="stc" style="position:absolute; inset:0; width:100%; height:100%; display:block; cursor:crosshair;"></canvas>
     <div style="position:absolute; top:16px; right:0; left:0; text-align:center; pointer-events:none;">
-      <div class="ttl" style="font-weight:800; font-size:30px; line-height:1.4; padding-bottom:0.14em;">magiClaude ✨</div>
-      <div style="font-size:11px; letter-spacing:0.25em; color:#9a96c8; text-transform:uppercase; margin-top:2px;">move your cursor</div>
+      <div style="font-size:12px; letter-spacing:0.32em; color:#c9c6ee; text-transform:uppercase; margin-bottom:4px;">Welcome to</div>
+      <div class="ttl" style="font-family:'Orbitron',system-ui,sans-serif; font-weight:800; font-size:36px; letter-spacing:0.02em; line-height:1.3; padding-bottom:0.14em;">magiClaude ✨</div>
     </div>
     <div style="position:absolute; bottom:12px; right:0; left:0; display:flex; gap:10px; justify-content:center; align-items:center;">
       <button class="sw" data-h="#7F77DD" style="width:22px;height:22px;border-radius:50%;border:1.5px solid #fff6;background:#7F77DD;cursor:pointer;padding:0;"></button>
@@ -24,8 +25,8 @@ Render this as a SINGLE `mcp__visualize__show_widget` call (favicon ✨). Pass t
 </div>
 <style>
   @keyframes shim{0%{background-position:-200% 0}100%{background-position:200% 0}}
-  @keyframes glow{0%,100%{filter:drop-shadow(0 0 3px rgba(146,224,200,0.5))}50%{filter:drop-shadow(0 0 18px rgba(146,224,200,0.9))}}
-  #st .ttl{background:linear-gradient(90deg,#fff,#b9b2ff 25%,#fff 50%,#7fe9c8 75%,#fff); background-size:200% 100%; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; animation:shim 4s linear infinite, glow 2.4s ease-in-out infinite;}
+  @keyframes glow{0%,100%{filter:drop-shadow(0 0 3px rgba(127,119,221,0.5))}50%{filter:drop-shadow(0 0 22px rgba(127,119,221,0.95)) drop-shadow(0 0 9px rgba(146,224,200,0.8))}}
+  #st .ttl{background:linear-gradient(90deg,#fff,#b9b2ff 25%,#fff 50%,#7fe9c8 75%,#fff); background-size:200% 100%; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; animation:shim 3.5s linear infinite, glow 2.2s ease-in-out infinite;}
   #st .sw:hover{transform:scale(1.18);} #st .sw{transition:transform .15s;} #st #burst:hover{background:#ffffff28;}
 </style>
 <script>
