@@ -15,47 +15,23 @@ hook that injects a short reminder. It uses the built-in `visualize` widget tool
 (present in Claude Desktop); where that tool isn't available it simply falls back
 to plain markdown.
 
-## Install
+## Install · Update · Uninstall
 
-Paste this to Claude:
+Copy & paste into Claude:
+
+**Install**
 
 ```text
 Install YitshakS/magiClaude marketplace plugin
 ```
 
-Claude runs the steps for you.
-
-<details>
-<summary>Prefer the CLI?</summary>
-
-```bash
-claude plugin marketplace add YitshakS/magiClaude
-claude plugin install magiClaude@magiclaude
-```
-
-</details>
-
-## Update
-
-Paste this to Claude:
+**Update**
 
 ```text
 Update YitshakS/magiClaude marketplace plugin
 ```
 
-<details>
-<summary>Prefer the CLI?</summary>
-
-```bash
-claude plugin marketplace update magiclaude
-claude plugin install magiClaude@magiclaude
-```
-
-</details>
-
-## Uninstall
-
-Paste this to Claude:
+**Uninstall**
 
 ```text
 Uninstall YitshakS/magiClaude marketplace plugin
@@ -65,6 +41,15 @@ Uninstall YitshakS/magiClaude marketplace plugin
 <summary>Prefer the CLI?</summary>
 
 ```bash
+# Install
+claude plugin marketplace add YitshakS/magiClaude
+claude plugin install magiClaude@magiclaude
+
+# Update
+claude plugin marketplace update magiclaude
+claude plugin install magiClaude@magiclaude
+
+# Uninstall
 claude plugin uninstall magiClaude@magiclaude
 claude plugin marketplace remove magiclaude
 ```
