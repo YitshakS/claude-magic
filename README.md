@@ -73,8 +73,8 @@ claude plugin marketplace remove magiclaude
 
 ## Try it
 
-- `/mc-demo` — interactive capabilities demo
-- `/mc-hello-1`, `/mc-hello-2` — animated effects showcases
+- `/magiClaude:demo` — interactive capabilities demo
+- `/magiClaude:hello-1`, `/magiClaude:hello-2` — animated effects showcases
 
 ## ⭐ Like it?
 
