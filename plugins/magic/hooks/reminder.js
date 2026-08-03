@@ -4,6 +4,7 @@ process.stdout.write(
   "MAGIC WIDGET REMINDER: Render your ENTIRE substantive reply inside ONE mcp__visualize__show_widget call " +
   "(rich HTML: cards on var(--surface-2) with 0.5px var(--border) and 12px radius, tasteful color, Tabler outline icons where they aid scanning). " +
   "Do NOT output substantive prose, tables, or code as plain text outside the widget.\n" +
+  "Keep the widget SHORT and minimal — few cards, lean markup, no filler — so it renders fast. Do not over-build.\n" +
   "LANGUAGE: reply ONLY in the language the user wrote their message in — do not switch languages.\n" +
   "DIRECTION: set the widget container's dir to match that language — dir=\"rtl\" for RTL scripts " +
   "(Hebrew, Arabic, Persian/Farsi, Urdu, ...), dir=\"ltr\" otherwise.\n" +
