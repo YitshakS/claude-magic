@@ -33,7 +33,6 @@ Render this as a SINGLE `mcp__visualize__show_widget` call (favicon ✨). Pass t
   (function(){
     var c=document.getElementById('stc'); if(!c)return; var x=c.getContext('2d');
     function size(){c.width=c.clientWidth;c.height=c.clientHeight;} size();
-    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var hue='#7F77DD';
     function hexToRgb(h){return [parseInt(h.slice(1,3),16),parseInt(h.slice(3,5),16),parseInt(h.slice(5,7),16)];}
     var rgb=hexToRgb(hue);
@@ -57,7 +56,7 @@ Render this as a SINGLE `mcp__visualize__show_widget` call (favicon ✨). Pass t
       if(mx>-500){for(var i=0;i<P.length;i++){var p=P[i],dx=p.x-mx,dy=p.y-my,d=Math.sqrt(dx*dx+dy*dy);
         if(d<170){var al=(1-d/170)*0.9; x.strokeStyle='rgba(255,255,255,'+al+')'; x.lineWidth=0.8; x.beginPath();x.moveTo(p.x,p.y);x.lineTo(mx,my);x.stroke();}}}
       for(var i=0;i<P.length;i++){var p=P[i]; x.fillStyle='rgba('+rgb[0]+','+rgb[1]+','+rgb[2]+',0.95)'; x.beginPath();x.arc(p.x,p.y,p.r,0,6.283);x.fill();}
-      if(!reduce)requestAnimationFrame(frame);
+      requestAnimationFrame(frame);
     }
     frame();
   })();
