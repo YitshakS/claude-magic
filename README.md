@@ -24,11 +24,11 @@ Install YitshakS/magiClaude marketplace plugin
 ```
 
 ```text
-Update YitshakS/magiClaude marketplace plugin
+Update magiClaude marketplace and plugin
 ```
 
 ```text
-Uninstall YitshakS/magiClaude marketplace plugin
+Uninstall magiClaude plugin and marketplace
 ```
 
 ## License
