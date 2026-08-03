@@ -6,6 +6,9 @@ beautiful, colorful, code highlighting, charts, dynamic buttons (quote, copy, ch
 
 It doesn't modify Claude's core - only a hook.
 
+magiClaude is completely free! Want to reward the creator with a star (that's free too)? 🙏
+→ https://github.com/YitshakS/magiClaude
+
 | Without magiClaude | With magiClaude |
 |:------------------:|:---------------:|
 | ![Without magiClaude](assets/before.png) | ![With magiClaude](assets/after.png) |
@@ -25,11 +28,6 @@ Update YitshakS/magiClaude marketplace plugin
 ```text
 Uninstall YitshakS/magiClaude marketplace plugin
 ```
-
-## ⭐ Like it?
-
-If magiClaude makes your chats nicer, a star means a lot →
-https://github.com/YitshakS/magiClaude
 
 ## License
 
