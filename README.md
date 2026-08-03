@@ -35,6 +35,42 @@ claude plugin install magiClaude@magiclaude
 
 </details>
 
+## Update
+
+Paste this to Claude:
+
+```text
+Update the magiClaude plugin to the latest version.
+```
+
+<details>
+<summary>Prefer the CLI?</summary>
+
+```bash
+claude plugin marketplace update magiclaude
+claude plugin install magiClaude@magiclaude
+```
+
+</details>
+
+## Uninstall
+
+Paste this to Claude:
+
+```text
+Uninstall the magiClaude Claude Code plugin and remove the magiClaude marketplace.
+```
+
+<details>
+<summary>Prefer the CLI?</summary>
+
+```bash
+claude plugin uninstall magiClaude@magiclaude
+claude plugin marketplace remove magiclaude
+```
+
+</details>
+
 ## Try it
 
 - `/mc-demo` — interactive capabilities demo
