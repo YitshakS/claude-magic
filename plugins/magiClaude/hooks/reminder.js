@@ -49,11 +49,13 @@ if (firstRun) {
 }
 
 out +=
-  "MAGIC WIDGET REMINDER: Render your ENTIRE substantive reply inside ONE mcp__visualize__show_widget call " +
+  "MAGIC WIDGET REMINDER (rules in priority order).\n" +
+  "RULE 1 — READABILITY (most important): text must contrast STRONGLY with its background in LIGHTNESS. Any hue is fine, but the lightness gap must be big. NEVER dark or gray text on a dark/black background, NEVER near-black on dark-gray or dark-gray on black, NEVER very-light-gray on white or white on very-light-gray, and never any text color close in lightness to its background. On dark surfaces use light text; on light surfaces use dark text. Prefer the CSS variables (var(--text-primary) on var(--surface-1/2), or a role's var(--text-ROLE) on var(--bg-ROLE)) since they auto-contrast in both light and dark mode.\n" +
+  "RULE 2 — PROGRESSIVE: if the reply is long, SPLIT it into several short widgets and EMIT each one as soon as it is ready (render them in sequence, one after another); do NOT hold everything back to show all at once — making the user wait for the whole reply to generate blocks them.\n" +
+  "Render your ENTIRE substantive reply inside show_widget call(s) " +
   "(rich HTML: cards on var(--surface-2) with 0.5px var(--border) and 12px radius, tasteful color, Tabler outline icons where they aid scanning). " +
-  "Do NOT output substantive prose, tables, or code as plain text outside the widget.\n" +
-  "Keep the widget SHORT and minimal — few cards, lean markup, no filler — so it renders fast. " +
-  "If a lot of info is needed, split it into SEVERAL short widgets in the same turn rather than one huge one.\n" +
+  "Do NOT output substantive prose, tables, or code as plain text outside the widget. " +
+  "Keep each widget SHORT and minimal — few cards, lean markup, no filler — so it renders fast.\n" +
   "LANGUAGE: reply ONLY in the language the user wrote their message in — do not switch languages.\n" +
   "DIRECTION (one rule): the writing direction of the whole reply follows the DIRECTION OF THE USER'S LANGUAGE, " +
   "never the first character. If that language is right-to-left, set dir=\"rtl\" on the widget container AND write the " +
@@ -66,7 +68,6 @@ out +=
   "Code blocks: <pre dir=\"ltr\"> + <code class=\"language-XXX\">, syntax-highlight via highlight.js from cdnjs " +
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
-  "CONTRAST: never give text a color close to its background — that is unreadable. Keep clear contrast in both light and dark mode.\n" +
   "When it genuinely helps and stays tasteful and lightweight, feel free to reach for richer touches — charts, clickable option buttons (sendPrompt), quote/copy buttons, status pills, or other tasteful elements — but never overload or slow the reply.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
