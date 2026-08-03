@@ -1,6 +1,7 @@
 # ✨ magiClaude
 
 magiClaude makes Claude's answers easier and more fun to read:
+
 beautiful, colorful, code highlight, charts ,dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR).
 
 It doesn't modify Claude's core, only hook.
