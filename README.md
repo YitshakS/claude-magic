@@ -20,7 +20,7 @@ to plain markdown.
 Paste this to Claude:
 
 ```text
-Add the Claude Code plugin marketplace YitshakS/magiClaude and install the magiClaude plugin, then reload plugins.
+Install the magiClaude plugin from the YitshakS/magiClaude marketplace, then reload.
 ```
 
 Claude runs the steps for you.
