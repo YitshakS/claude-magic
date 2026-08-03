@@ -6,6 +6,8 @@ beautiful, colorful, code highlighting, charts, dynamic buttons (quote, copy, ch
 
 It doesn't modify Claude's core - only a hook.
 
+## ⭐ Like it?
+
 magiClaude is completely free! Want to reward the creator with a star (that's free too)? 🙏
 → https://github.com/YitshakS/magiClaude
 
