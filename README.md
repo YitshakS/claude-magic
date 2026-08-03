@@ -26,11 +26,6 @@ Update YitshakS/magiClaude marketplace plugin
 Uninstall YitshakS/magiClaude marketplace plugin
 ```
 
-## Try it
-
-- `/magiClaude:demo` — capabilities demo
-- `/magiClaude:banner-1`, `/magiClaude:banner-2` — animated banners
-
 ## ⭐ Like it?
 
 If magiClaude makes your chats nicer, a star means a lot →
