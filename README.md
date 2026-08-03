@@ -1,9 +1,8 @@
 # ✨ magiClaude
 
-magiClaude makes Claude's answers easier — and more fun — to read: beautiful, colorful
-widgets with charts and dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR) that
-follows how you write, and syntax-highlighted code. It doesn't modify Claude's core — just a
-Claude Code hook, with a plain-text fallback where the widget tool isn't available.
+magiClaude makes Claude's answers easier and more fun to read: beautiful, colorful, code highlight, charts ,dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR).
+
+It doesn't modify Claude's core, only hook.
 
 | Without magiClaude | With magiClaude |
 |:------------------:|:---------------:|
