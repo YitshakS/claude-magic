@@ -1,0 +1,9 @@
+{
+  "name": "magiClaude",
+  "version": "0.1.0",
+  "description": "Claude answers in a beautiful, colorful, fun-to-read widget — in the language and direction you write in. Rich formatting, BiDi (RTL/LTR) that follows your language, and syntax-highlighted code with a copy button.",
+  "author": {
+    "name": "Yitshak S"
+  },
+  "keywords": ["widget", "beautiful", "bidi", "rtl", "ltr", "hebrew", "arabic", "persian", "formatting", "visualize"]
+}

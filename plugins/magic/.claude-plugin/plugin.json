@@ -1,9 +1,0 @@
-{
-  "name": "magic",
-  "version": "0.1.0",
-  "description": "Beautiful answers, your language, your direction. Claude renders every reply as a polished colorful widget (cards, icons, highlighted code with copy button), replies only in the language you write, and sets RTL/LTR automatically to match.",
-  "author": {
-    "name": "Yitshak S"
-  },
-  "keywords": ["widget", "beautiful", "rtl", "ltr", "hebrew", "arabic", "persian", "auto-direction", "language", "formatting", "visualize"]
-}

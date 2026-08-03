@@ -1,36 +1,27 @@
-# ✨ magic — beautiful Claude answers, in your language
+# ✨ magiClaude
 
-Every Claude reply, rendered as a polished, colorful widget: cards, icons, and
-syntax-highlighted code with a copy button. It answers in **whatever language you
-write in**, and sets the writing direction automatically — right-to-left for
-Hebrew/Arabic/Persian, left-to-right for the rest.
+Claude answers in a beautiful, colorful, fun-to-read widget — in the language and
+direction you write in.
 
-No app modification, no code injection — just an allowed Claude Code hook.
+## What it does
 
-## Requirements
+- **Widget** — fun-to-read, colorful text with icons, charts, and choice buttons.
+- **BiDi** — keeps the session's language and direction (RTL/LTR) matched to how
+  you write, so Hebrew/Arabic lays out correctly.
+- **Code** — syntax highlighting and a copy button.
 
-- **Claude Code** (works inside the Claude Desktop app too).
-- The **`visualize` MCP** (provides `show_widget`). Present in Claude Desktop /
-  Cowork. Without it, Claude falls back to plain markdown.
+## Requires
+
+Claude Desktop (it uses the built-in `visualize` widget tool).
 
 ## Install
 
 ```bash
-claude plugin marketplace add <your-github-user>/claude-magic
-claude plugin install magic@claude-magic
+claude plugin marketplace add YitshakS/claude-magic
+claude plugin install magiClaude@claude-magic
 ```
 
-Then `/reload-plugins` or restart.
-
-## Use
-
-Just chat. Say **`no widget`** for a plain reply on a single turn.
-
-## How it works
-
-A `UserPromptSubmit` hook reminds Claude, each turn, to render its reply as a
-widget in your language and direction. Pure instruction — it changes nothing in
-your app.
+Say `no widget` for a plain reply on a single turn.
 
 ## License
 

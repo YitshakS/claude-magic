@@ -4,13 +4,13 @@
     "name": "Yitshak S"
   },
   "metadata": {
-    "description": "Beautiful answers in your language and direction — Claude replies as a polished, colorful widget, in whatever language you write, right-to-left or left-to-right automatically."
+    "description": "Beautiful, fun-to-read Claude answers — in the language and direction you write in."
   },
   "plugins": [
     {
-      "name": "magic",
-      "source": "./plugins/magic",
-      "description": "Turn every Claude reply into a beautiful, colorful widget — auto-matched to your language and writing direction (RTL/LTR). Answers stay in the language you write."
+      "name": "magiClaude",
+      "source": "./plugins/magiClaude",
+      "description": "Claude answers in a beautiful, colorful widget matched to your language and writing direction (RTL/LTR), with syntax-highlighted code and a copy button."
     }
   ]
 }
