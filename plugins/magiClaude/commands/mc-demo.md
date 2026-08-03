@@ -55,12 +55,6 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
     <div class="m b"><div class="lbl">Avg. render</div><div class="val">0.9s</div></div>
   </div>
 
-  <div class="card rtlblock">
-    <div style="font-weight:500;margin-bottom:8px;text-align:right;">BiDi — your language &amp; direction (LTR/RTL)</div>
-    <p>Deployment נכשל אתמול בלילה כי ה-<code>token</code> פג אחרי 15 דקות; תיקנתי עם <code>refresh</code> אוטומטי ב-<code>interceptor</code>.</p>
-    <p>Deployment فشل الليلة لأن الـ<code>token</code> انتهى بعد 15 دقيقة؛ أصلحته بـ<code>refresh</code> تلقائي في الـ<code>interceptor</code>.</p>
-  </div>
-
   <div class="charts">
     <div class="card">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
@@ -92,6 +86,12 @@ Render the magiClaude capabilities demo as a SINGLE `mcp__visualize__show_widget
     <span style="font-weight:500;">Status messages</span>
     <div class="alert warn"><i class="ti ti-alert-triangle" style="font-size:16px;" aria-hidden="true"></i>Warning — your token expires in 5 minutes.</div>
     <div class="alert ok"><i class="ti ti-circle-check" style="font-size:16px;" aria-hidden="true"></i>Success — deploy completed in 0.9s.</div>
+  </div>
+
+  <div class="card rtlblock">
+    <div style="font-weight:500;margin-bottom:8px;text-align:right;">BiDi — your language &amp; direction (LTR/RTL)</div>
+    <p>Deployment נכשל אתמול בלילה כי ה-<code>token</code> פג אחרי 15 דקות; תיקנתי עם <code>refresh</code> אוטומטי ב-<code>interceptor</code>.</p>
+    <p>Deployment فشل الليلة لأن الـ<code>token</code> انتهى بعد 15 دقيقة؛ أصلحته بـ<code>refresh</code> تلقائي في الـ<code>interceptor</code>.</p>
   </div>
 
   <div class="card">
