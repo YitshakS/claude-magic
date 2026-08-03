@@ -15,7 +15,7 @@ hook that injects a short reminder. It uses the built-in `visualize` widget tool
 (present in Claude Desktop); where that tool isn't available it simply falls back
 to plain markdown.
 
-## Install (easiest)
+## Install
 
 Paste this to Claude:
 
