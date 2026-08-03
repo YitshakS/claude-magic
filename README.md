@@ -20,7 +20,7 @@ to plain markdown.
 Paste this to Claude:
 
 ```text
-Install the magiClaude plugin from the YitshakS/magiClaude marketplace, then reload.
+Install YitshakS/magiClaude marketplace plugin
 ```
 
 Claude runs the steps for you.
@@ -40,7 +40,7 @@ claude plugin install magiClaude@magiclaude
 Paste this to Claude:
 
 ```text
-Update the magiClaude plugin to the latest version.
+Update YitshakS/magiClaude marketplace plugin
 ```
 
 <details>
@@ -58,7 +58,7 @@ claude plugin install magiClaude@magiclaude
 Paste this to Claude:
 
 ```text
-Uninstall the magiClaude plugin and remove the magiClaude marketplace.
+Uninstall YitshakS/magiClaude marketplace plugin
 ```
 
 <details>
