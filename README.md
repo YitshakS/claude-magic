@@ -28,7 +28,7 @@ Update magiClaude marketplace and plugin
 ```
 
 ```text
-Uninstall magiClaude plugin and marketplace
+Uninstall magiClaude plugin, marketplace, and all leftovers
 ```
 
 ## License
