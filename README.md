@@ -4,7 +4,7 @@ magiClaude makes your Claude Desktop session easy and fun to read:
 
 beautiful, colorful, code highlighting, charts, dynamic buttons (quote, copy, choose), correct BiDi (RTL/LTR).
 
-It doesn't modify Claude's core, only a hook.
+It doesn't modify Claude's core - only a hook.
 
 | Without magiClaude | With magiClaude |
 |:------------------:|:---------------:|
