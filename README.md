@@ -10,18 +10,40 @@ direction you write in.
   you write, so Hebrew/Arabic lays out correctly.
 - **Code** — syntax highlighting and a copy button.
 
-## Requires
+It does **not** modify Claude or any application files — it only adds a Claude Code
+hook that injects a short reminder. It uses the built-in `visualize` widget tool
+(present in Claude Desktop); where that tool isn't available it simply falls back
+to plain markdown.
 
-Claude Desktop (it uses the built-in `visualize` widget tool).
+## Install (easiest)
 
-## Install
+Paste this to Claude:
+
+> Add the Claude Code plugin marketplace `YitshakS/magiClaude` and install the
+> `magiClaude` plugin, then reload plugins.
+
+Claude runs the steps for you. Say `no widget` any time for a plain reply on a
+single turn.
+
+<details>
+<summary>Prefer the CLI?</summary>
 
 ```bash
-claude plugin marketplace add YitshakS/claude-magic
-claude plugin install magiClaude@claude-magic
+claude plugin marketplace add YitshakS/magiClaude
+claude plugin install magiClaude@magiclaude
 ```
 
-Say `no widget` for a plain reply on a single turn.
+</details>
+
+## Try it
+
+- `/mc-demo` — interactive capabilities demo
+- `/mc-hello-1`, `/mc-hello-2` — animated effects showcases
+
+## ⭐ Like it?
+
+If magiClaude makes your chats nicer, a star means a lot →
+https://github.com/YitshakS/magiClaude
 
 ## License
 
