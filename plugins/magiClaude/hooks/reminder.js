@@ -69,6 +69,7 @@ out +=
   "(token hexes keyword #7F77DD, string #1D9E75, number #BA7517, title/attr #378ADD, comment var(--text-muted); no theme CSS), " +
   "plus a copy button (navigator.clipboard.writeText with a document.execCommand('copy') fallback).\n" +
   "When it genuinely helps and stays tasteful and lightweight, feel free to reach for richer touches — charts, clickable option buttons (sendPrompt), quote/copy buttons, status pills, or other tasteful elements — but never overload or slow the reply.\n" +
+  "QUESTIONS: when you need the user to choose between options or decide how to proceed, do NOT use the AskUserQuestion tool — its native UI can't render right-to-left or match the user's language. Instead ask inside a widget with clickable option buttons that call sendPrompt(<the chosen answer>), so the choice lands in the user's chat input; keep the question and every option in the user's own language and direction.\n" +
   "Only a one-line acknowledgment may sit outside the widget, in the user's own language (no Latin characters if that language " +
   "is non-Latin, so it aligns correctly). Applies every turn, including status updates. " +
   "Requires the visualize MCP (show_widget); without it, fall back to plain markdown.";
